@@ -1,0 +1,97 @@
+body {
+  background-image: url("image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gradient(cyan, rgb(23, 84, 199), white);
+  color: White;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1em;
+}
+
+#container {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 70px;
+  width: 55%;
+}
+
+.heading {
+  padding-bottom: 25px;
+}
+
+h2 {
+  letter-spacing: 1.5px;
+}
+
+input {
+  margin: 5px;
+}
+
+.name>input:nth-child(1) {
+  margin-left: 60px;
+}
+
+.phone>input:nth-child(1) {
+  margin-left: 89px;
+}
+
+.phone>input {
+  width: 115px;
+}
+
+.phone>input:nth-child(1, 2) {
+  padding-right: 20px;
+}
+
+.message>input {
+  margin-left: 72px;
+  height: 100px;
+  width: 350px;
+}
+
+.verification {
+  height: 50px;
+  margin-left: 50px;
+  border: 1px solid white;
+  background-color: rgb(4, 2, 41, 0.5);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  display: flex;
+  justify-content: start;
+}
+
+.mail>input {
+  margin-left: 60px;
+  width: 385px;
+}
+
+.subject {
+  margin-left: 10px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background: none;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.verify {
+  padding-top: 10px;
+}
+
+.large {
+  width: 20px;
+  height: 20px;
+}
